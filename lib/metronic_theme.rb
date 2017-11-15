@@ -1,5 +1,5 @@
-require "metronic_theme/version"
+require 'metronic_theme/version'
 
 module MetronicTheme
-  # Your code goes here...
+  class Engine < ::Rails::Engine; end
 end
